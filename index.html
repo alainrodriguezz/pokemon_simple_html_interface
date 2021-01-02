@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pakidex</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <!-- Pokemon List Screen -->
+  <table id="screen_list" class="hide" width="" align="center">
+    <tr>
+      <td class="border" id="pokemon_list_container">
+        <!-- Here goes the pokemon List -->
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <span class="info">NAVIGATE WITH THE ARROWS AND ENTER</span>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Pokemon Description Screen -->
+  <table id="screen_description" width="495" class="hide"  align="center">
+    <tr>
+      <td align="center" class="border">
+
+        <table>
+          <tr>
+            <td class="border_bottom padding" align="center" width="150">
+              <img id="desc_img" src="assets/poke_odish.gif" width="125"> <br>
+              <span>No.</span><span id="desc_number">089</span>
+            </td>
+            <td class="border_bottom padding">
+              <h2 class="no_margin no_padding uppercase" id="desc_name">PIKACHU</h2>
+              <span class="text_small">L:</span><span id="desc_level">42</span> <br>
+              <span class="text_small">HP:</span><span id="desc_hp1">91/91</span><span>/</span><span id="desc_hp2">91</span> <br>
+              <img src="assets/poke_asset_lifebar.gif" alt=""> <br>
+              <span>TIPO:</span><span id="desc_type" class="uppercase">POISON</span> <br>
+            </td>
+          </tr>
+          <tr>
+            <td class="padding border_right" valign="top">
+              <span class="text_small">ATAQUE:</span> <br>
+              <span id="desc_attack">100</span> <br>
+              <span class="text_small">DEFENSA:</span> <br>
+              <span id="desc_defense">100</span> <br>
+              <span class="text_small">VELOCIDAD:</span> <br>
+              <span id="desc_speed">100</span> <br>
+              <span class="text_small">ESPECIAL:</span> <br>
+              <span id="desc_special">100</span> <br>
+            </td>
+            <td class="padding" valign="top">
+              <h3 class="no_margin no_padding">DESCRIPCIÓN:</h3>
+              <p id="desc_description" class="no_margin no_padding text_description">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit nec, nisl sociis parturient inceptos tellus ut ornare dapibus, orci scelerisque magna lectus venenatis commodo facilisi
+              </p>
+              
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <span class="info">PRESS ESC TO GO BACK</span>
+      </td>
+    </tr>
+  </table>
+
+  <script type="text/javascript" src="assets/Pokemon.js"></script>
+  <script type="text/javascript" src="assets/Interface.js"></script>
+  <script type="text/javascript" src="assets/code.js"></script>
+
+</body>
+</html>
